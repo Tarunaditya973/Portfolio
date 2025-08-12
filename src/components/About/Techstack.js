@@ -1,70 +1,74 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiPostgresql,
+  SiKubernetes,
+  SiDocker,
+  SiTerraform,
+  SiJenkins,
+  SiGithubactions,
+  SiArgo,
+  SiPrometheus,
+  SiGrafana,
+  SiAmazonaws,
+  SiMicrosoftazure,
+  SiGooglecloud,
+  SiGit,
+  SiAnsible,
+  SiHelm,
+  SiIstio,
+  SiVault,
 } from "react-icons/si";
-
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTerraform />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiJenkins />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiGithubactions />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiArgo />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
-      <AWSIcon />
+        <SiPrometheus />
       </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiGrafana />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiAmazonaws />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiMicrosoftazure />
       </Col> */}
       {/* <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiGooglecloud />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiGit />
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiAnsible />
+      </Col> */}
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHelm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIstio />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiVault />
       </Col> */}
     </Row>
   );

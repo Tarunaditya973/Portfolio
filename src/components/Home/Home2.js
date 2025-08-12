@@ -19,21 +19,40 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              I fell in love with Devops and systems and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              My core expertise lies in{" "}
               <i>
-                <b className="purple">C, C++, Javascript,Python. </b>
+                <b className="purple">Kubernetes Setup & Troubleshooting</b>
+              </i>
+              , where I excel at designing, deploying, and maintaining robust cluster architectures. I specialize in resolving complex Kubernetes issues, optimizing cluster performance, and implementing best practices for production environments.
+              <br />
+              <br />
+              I'm passionate about{" "}
+              <i>
+                <b className="purple">CI/CD Pipeline Automation</b>
+              </i>
+              , building seamless deployment workflows using{" "}
+              <i>
+                <b className="purple">GitHub Actions and ArgoCD</b>
+              </i>
+              . I create end-to-end automation that accelerates development cycles and ensures reliable deployments.
+              <br />
+              <br />
+              I am fluent in classics like
+              <i>
+                <b className="purple"> Kubernetes, Docker, Terraform, Cloud </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Clusters and Pipelines </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Cloud.
+                  Software development and AI.
                 </b>
               </i>
               <br />
